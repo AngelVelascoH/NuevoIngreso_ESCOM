@@ -1,6 +1,7 @@
 # NuevoIngreso_ESCOM
 SItio Web de registro de alumnos de nuevo ingreso de la Escuela Superior de Cómputo.
-El proyecto tiene como funcionalidad crear un registro de alumnos de primer semestre siguiendo estrictas reglas en el llenado de campos de su registro, asi como enviar correo con su confirmación de registro, la generación de un PDF instucional y la obtención de sus datos para presentar examen diagnósico. 
+El proyecto tiene como funcionalidad crear un registro de alumnos de primer semestre, siguiendo estrictas reglas en la validación de campos. El sistema debe enviar correo con su confirmación de registro, la generación de un PDF instucional y la obtención de sus datos para presentar examen diagnósico. 
+
 El administrador, también cuenta con un CRUD que le permite visualizar y modificar toda la información de los alumnos.
 
 El sitio web, se desarrolló como proyecto final para desarrollo web, con la finalidad de que el sistema fuera 100% funcional para dar servicio a los alumnos de nuevo ingreso de la ESCOM del Instituto Politécnico Nacional.
