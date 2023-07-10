@@ -1,0 +1,46 @@
+@import url("https://fonts.googleapis.com/css2?family=Libre+Franklin&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  box-sizing: border-box;
+  font-family: "Libre Franklin", sans-serif;
+}
+body {
+  margin: 0;
+}
+.head {
+  color: white;
+  background-color: #006699;
+  margin: 0;
+  height: 150px;
+}
+.head-text {
+  font-size: 30px;
+  text-decoration: overline;
+}
+.caja-login {
+  border-radius: 1px;
+  box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px,
+    rgba(60, 64, 67, 0.15) 0px 2px 6px 2px;
+}
+label {
+  color: #006699;
+  font-size: 20px;
+}
+button {
+  display: block;
+  width: 100%;
+}
+table th {
+  text-align: center;
+  vertical-align: middle;
+}
+table td {
+  text-align: center;
+  vertical-align: middle;
+}
+.icons {
+  width: 20px;
+  height: 20px;
+}

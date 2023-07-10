@@ -1,0 +1,206 @@
+@import url("https://fonts.googleapis.com/css2?family=Libre+Franklin&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  box-sizing: border-box;
+  font-family: "Libre Franklin", sans-serif;
+}
+body {
+  padding-top: 25px;
+  margin: 0;
+}
+.navbar-brand {
+  color: black;
+}
+
+.itemss {
+  text-decoration: none;
+  color: #006699;
+  font-size: 20px;
+  font-weight: bold;
+  position: relative;
+}
+.itemss::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  height: 4px;
+  background-color: currentColor;
+  transform: scaleX(0);
+  transform-origin: right;
+  transition: transform 250ms ease-in;
+}
+
+.itemss:hover::after {
+  transform: scaleX(1);
+  transform-origin: left;
+  transition: transform 250ms ease-in;
+}
+
+.logo-escom {
+  width: 150px;
+  height: 110px;
+}
+
+.main {
+  background-color: #006699;
+  height: 800px;
+}
+.main-box {
+  color: white;
+  height: 300px;
+  background-color: #006699;
+  margin-top: 250px;
+}
+.textos-grandes {
+  padding-top: 50px;
+  color: white;
+  font-size: 50px;
+}
+
+.card-title {
+  font-size: 50px;
+}
+.card-text {
+  font-size: 20px;
+}
+.footer {
+  height: 250px;
+  background-color: #006699;
+}
+.logos-redes {
+  margin-top: 10px;
+
+  width: 75px;
+  height: 75px;
+}
+.logos-redes:hover {
+  filter: invert(100%) sepia(100%) saturate(0%) hue-rotate(100deg)
+    brightness(100%) contrast(100%);
+}
+.btn2 {
+  display: block;
+}
+.foot {
+  background-color: #006699;
+}
+.logo-footer {
+  filter: invert(100%) sepia(100%) saturate(0%) hue-rotate(106deg)
+    brightness(103%) contrast(100%);
+}
+
+.caja-formulario {
+  border-radius: 1px;
+  box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px,
+    rgba(60, 64, 67, 0.15) 0px 2px 6px 2px;
+}
+.enviar {
+  font-size: 25px;
+  width: 200px;
+  height: 50px;
+}
+.incorrecto {
+  border-color: red;
+}
+.correcto {
+  border-color: green;
+}
+.correcto:focus {
+  border: 2px solid green;
+  outline: none;
+  box-shadow: 3px 0px 30px rgba(163, 163, 163, 0.4);
+}
+.incorrecto:focus {
+  border: 2px solid red;
+  outline: none;
+  box-shadow: 3px 0px 30px rgba(163, 163, 163, 0.4);
+}
+.caja-formulario h1 {
+  color: #006699;
+  text-decoration: overline solid;
+}
+
+.errores {
+  color: red;
+  margin-top: 8px;
+  display: none;
+}
+.errores-mostrar {
+  display: inline-block;
+}
+.error-form {
+  display: inline-block;
+  height: 45px;
+  line-height: 45px;
+  background: #f66060;
+  padding: 0 15px;
+  border-radius: 3px;
+  margin-bottom: 30px;
+}
+.error-form-activo {
+  display: block;
+}
+
+.error-form span {
+  margin: 0;
+}
+legend {
+  text-decoration: none;
+  color: #006699;
+  font-size: 20px;
+  font-weight: bold;
+}
+.izq {
+  text-align: start;
+  font-size: 25px;
+}
+table th {
+  text-align: center;
+  vertical-align: middle;
+}
+table td {
+  text-align: center;
+  vertical-align: middle;
+}
+@media (max-width: 992px) {
+  .logo-escom {
+    width: 100px;
+    height: 75px;
+  }
+  .textos-grandes {
+    color: white;
+    font-size: 30px;
+  }
+  .main-box {
+    margin-top: 100px;
+  }
+  .logo-escom2 {
+    margin-top: 50px;
+    width: 80%;
+    height: 80%;
+  }
+
+  .redes-soc {
+    padding-top: 50px;
+  }
+  .logos-redes {
+    filter: invert(100%) sepia(100%) saturate(0%) hue-rotate(100deg)
+      brightness(100%) contrast(100%);
+  }
+  .caja-formulario {
+    border: 0px;
+  }
+  .error-form {
+    height: 100px;
+  }
+}
+@media (max-width: 1050px) {
+  .itemss {
+    font-size: 16px;
+    margin-right: 0;
+  }
+}
